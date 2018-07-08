@@ -36,7 +36,15 @@ public class HelloSpringBoot
             System.out.println("--i--"+i);
         }
         return "Hello Spring Boot!";
-
-
     }
+
+    @RequestMapping("/bao3333")
+    public String bao3333() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("--i--"+i);
+        }
+        return "Hello Spring Boot!";
+    }
+
+
 }
