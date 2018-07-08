@@ -14,4 +14,10 @@ public class HelloSpringBoot
         return "Hello Spring Boot!";
     }
 
+
+
+    @RequestMapping("/chen")
+    public String chen() {
+        return "Hello Spring Boot Chen!";
+    }
 }
