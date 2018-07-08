@@ -19,4 +19,15 @@ public class HelloSpringBoot
 
     }
 
+
+    @RequestMapping("/whfchen")
+    public String whfchen() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("--i--"+i);
+        }
+        return "Hello Spring Boot!";
+
+
+    }
+
 }
