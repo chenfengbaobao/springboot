@@ -51,4 +51,9 @@ public class HelloSpringBoot
     public String chen555() {
         return "Hello Spring Boot Chen!";
     }
+
+    @RequestMapping("/chen8888")
+    public String chen8888() {
+        return "Hello Spring Boot Chen!";
+    }
 }
