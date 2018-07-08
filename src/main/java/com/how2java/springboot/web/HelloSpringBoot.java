@@ -11,25 +11,42 @@ public class HelloSpringBoot
 {
     @RequestMapping("/hello")
     public String hello() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("--i--"+i);
+        }
+        return "Hello Spring Boot!";
+
+
+    }
+
+
+    @RequestMapping("/whfchen")
+    public String whfchen() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("--i--"+i);
+        }
+        return "Hello Spring Boot!";
+
+
+    }
+
+    @RequestMapping("/bao")
+    public String bao() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("--i--"+i);
+        }
+        return "Hello Spring Boot!";
+    }
+
+    @RequestMapping("/bao3333")
+    public String bao3333() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("--i--"+i);
+        }
         return "Hello Spring Boot!";
     }
 
 
-
-    @RequestMapping("/chen")
-    public String chen() {
-        return "Hello Spring Boot Chen!";
-    }
-
-    @RequestMapping("/chen222")
-    public String chen222() {
-        return "Hello Spring Boot Chen!";
-    }
-
-    @RequestMapping("/chen333")
-    public String chen333() {
-        return "Hello Spring Boot Chen!";
-    }
     @RequestMapping("/chen555")
     public String chen555() {
         return "Hello Spring Boot Chen!";
